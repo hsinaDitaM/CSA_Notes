@@ -6,7 +6,7 @@ title: Calculator
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Neumorphic Calculator</title>
+<title>This is a Calculator</title>
 <style>
   .calculator {
     background-color: #f2f2f2;

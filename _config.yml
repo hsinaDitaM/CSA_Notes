@@ -7,7 +7,7 @@ baseurl: ""
 #remote_theme: pages-themes/midnight@v0.2.0
 theme: just-the-docs
 
-color_scheme: dark
+color_scheme: nil
 plugins:
   - jekyll-seo-tag
 
