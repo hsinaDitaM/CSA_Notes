@@ -10,3 +10,5 @@ theme: just-the-docs
 color_scheme: nil
 plugins:
   - jekyll-seo-tag
+
+repository: hsinaDitaM/CSA_Notes
