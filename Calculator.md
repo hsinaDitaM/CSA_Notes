@@ -69,8 +69,8 @@ title: Calculator
       <button class="button" onclick="appendNumber('2')">2</button>
       <button class="button" onclick="appendNumber('1')">1</button>
       <button class="button" onclick="appendOperator('*')">*</button>
-      <button class="button" onclick="appendNumber('0')">0</button>
       <button class="button" onclick="clearOutput()">C</button>
+      <button class="button" onclick="appendNumber('0')">0</button>
       <button class="button" onclick="calculate()">=</button>
       <button class="button" onclick="appendOperator('/')">/</button>
     </div>
