@@ -12,3 +12,15 @@ plugins:
   - jekyll-seo-tag
 
 repository: hsinaDitaM/CSA_Notes
+
+# Split pages into sections that can be searched individually
+# Supports 1 - 6, default: 2
+wsearch.heading_level: 1
+#search.heading_level: 2
+#search.heading_level: 3
+#search.heading_level: 4
+#search.heading_level: 5
+#search.heading_level: 6
+
+
+search.previews: 5
