@@ -8,7 +8,27 @@ permalink: /
 
 ## Mati Danish's Page
 
-Go to my [Github account](https://github.com/hsinaDitaM) 🤮
+
+<style>
+    .button {
+        background-color: #f0f0f0;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 6px 6px 10px #c7c7c7,
+                    -6px -6px 10px #ffffff;
+        padding: 10px 20px;
+        font-size: 16px;
+
+    }
+
+      .button:hover {
+    box-shadow: 3px 3px 6px rgba(163, 177, 198, 0.5),
+                -3px -3px 6px rgba(255, 255, 255, 0.5);
+  }
+</style>
+
+<button class="button" onclick="window.location.href='https://github.com/hsinaDitaM'">GO TO MY GITHUB ACCOUNT!!!!!!</button>
+
 
 <!---
 ## Overview of Hacks, Study and Tangibles
