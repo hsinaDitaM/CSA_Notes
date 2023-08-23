@@ -21,6 +21,7 @@ Things Done ✅:
 - changed the link to a button in the home page
 - made the calculator
 - customized my calculator with a lot of neumorphism buttons
+- installed recommended extensions 
 
 
 Problems that i overcame 💪:
