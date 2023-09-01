@@ -6,6 +6,9 @@ description: "This is My lab notebook"
 permalink: /lab
 ---
 
+
+
+
 # Lab Notebook
 
 ## Week 0 : Tool Check and Setup
