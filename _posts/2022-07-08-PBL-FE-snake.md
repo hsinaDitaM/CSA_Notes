@@ -4,7 +4,7 @@ layout: post
 description: A pretty advanced use of JavaScript building classic snake game using menu controls, key events, snake simulation and timers.  
 permalink: /frontend/snake
 courses: { csa: {week: 2} }
-type: hacks
+type: tangibles
 ---
 
 
