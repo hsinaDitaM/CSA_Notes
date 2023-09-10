@@ -18,22 +18,7 @@ type: hacks
     </style>
 </head>
 <body>
-    <h1>Pokemon Data</h1>
-    <table id="pokemonTable">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th id="nameHeader">Name</th>
-                <th>Type</th>
-                <th>Abilities</th>
-                <th>Image</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Pokemon data will be inserted here -->
-        </tbody>
-    </table>
-    <script>
+   <script>
         $(document).ready(function () {
             // URL to the Pokemon API (you may need to adjust the URL)
             var apiUrl = "https://pokeapi.co/api/v2/pokemon?limit=151";
@@ -94,5 +79,21 @@ type: hacks
             }
         }
     </script>
+
+    <h1>Pokemon Data</h1>
+    <table id="pokemonTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th id="nameHeader">Name</th>
+                <th>Type</th>
+                <th>Abilities</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Pokemon data will be inserted here -->
+        </tbody>
+    </table>
 </body>
 </html>
