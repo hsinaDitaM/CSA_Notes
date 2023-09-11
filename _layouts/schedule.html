@@ -123,7 +123,7 @@ Load all posts with site
   <td>
       {% assign units = units | shift %} <!-- remove delimiter -->
     {% else %} <!-- make a link in the column -->
-          - <a href="{{units[0]}}">{{units[1]}}</a> <br/>
+        - <a href="{{site.baseurl}}{{units[0]}}">{{units[1]}}</a> <br/>
       {% assign units = units | shift | shift %} <!-- remove title and url -->
     {% endif %}
   {% endfor %}

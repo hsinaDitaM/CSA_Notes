@@ -20,12 +20,12 @@ type: hacks
 <body>
    <script>
         $(document).ready(function () {
-            // URL to the Pokemon API (you may need to adjust the URL)
+            URL to the Pokemon API (you may need to adjust the URL)
             var apiUrl = "https://pokeapi.co/api/v2/pokemon?limit=151";
-            // Function to fetch and populate the table with Pokemon data
+            Function to fetch and populate the table with Pokemon data
             function fetchPokemonData() {
                 $.get(apiUrl, function (data) {
-                    // Loop through the results and populate the table
+                     Loop through the results and populate the table
                     $.each(data.results, function (index, pokemon) {
                         $.get(pokemon.url, function (pokemonData) {
                             var abilities = pokemonData.abilities.map(function (ability) {
@@ -46,7 +46,6 @@ type: hacks
                     });
                 });
             }
-            // Call the fetchPokemonData function to populate the table
             fetchPokemonData();
         });
     </script>
@@ -65,8 +64,8 @@ type: hacks
                 rows = table.getElementsByTagName("tr");
                 for (i = 1; i < rows.length - 1; i++) {
                     shouldSwitch = false;
-                    x = rows[i].getElementsByTagName("td")[1]; // Use index 1 for Name column
-                    y = rows[i + 1].getElementsByTagName("td")[1]; // Use index 1 for Name column
+                    x = rows[i].getElementsByTagName("td")[1];  Use index 1 for Name column
+                    y = rows[i + 1].getElementsByTagName("td")[1];  Use index 1 for Name column
                     if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
                         shouldSwitch = true;
                         break;
