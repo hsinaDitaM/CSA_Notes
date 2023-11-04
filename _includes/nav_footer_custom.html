@@ -1,0 +1,43 @@
+<!-- FILEPATH: /Users/matidanish/vscode/CSA_Notes/clock.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .clock {
+            font-size: 100%;
+            position: auto;
+            bottom: 0;
+            margin-right: 95px;
+            margin-bottom: 20px;
+            right: 20%;
+            color: rgb(114, 83, 237);
+        }
+    </style>
+</head>
+<body>
+    <div id="clock" class="clock"></div>
+    <script>
+        function displayTime() {
+            let date = new Date();
+            let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            let dayOfWeek = days[date.getDay()];
+            let month = date.toLocaleString('default', { month: 'long' });
+            let day = date.getDate();
+            let year = date.getFullYear();
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            let seconds = date.getSeconds();
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            hours = hours % 12;
+            hours = hours ? hours : 12;
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+            let time = dayOfWeek + '<br>' + month + ' ' + day + ', ' + year;
+            document.getElementById('clock').innerHTML = time;
+            setTimeout(displayTime, 1000);
+        }
+
+        displayTime();
+    </script>
+</body>
+</html>
