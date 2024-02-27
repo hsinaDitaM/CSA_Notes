@@ -78,6 +78,7 @@ def convert_notebooks():
     
     for notebook_file in notebook_files:
         try:
+            print(f"trying to covert {notebook_file}")
             convert_single_notebook(notebook_file)
         except ConversionException as e:
             print(f"Conversion error for {notebook_file}: {str(e)}")
